@@ -1,5 +1,7 @@
-En el área de facturación de una empresa si un numero ingresado corresponde en un valor es par o impar el programa deberá solicitar un numero entero al usuario y de terminar su clasificació
+En el área de facturación de una empresa si un numero ingresado corresponde en un valor es par o impar el programa deberá solicitar un numero entero al usuario y de terminar su clasificación
 
 Un instructor del sena solicta un software que al ingresar genere su tabla de multiplica del 1 al 10
 
 El area academica requiere un sistema que permita calcular el promedio de calificaciones de un grupo de aprendices el usuario debera ingresar las notas de los aprendices y el programa calculara el promedio general
+
+En una encuesta apliacada a 10 participantes se requiere almacenar sus edades y el seistema debe determinar la edad mayor la edad menor y el promedio de edades

@@ -7,7 +7,6 @@ public class TablaDeMultplicarUnoAlDiez {
     Scanner scan = new Scanner(System.in);
     System.out.print("Esribe el numero para hacer la tabla de multplicar: ");
     String valor = scan.nextLine();
-
     int valorInt = Integer.parseInt(valor);
     int multiplicador = 1;
 
