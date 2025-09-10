@@ -6,8 +6,7 @@ public class FacturacionParImpar  {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.print("Esribe el valor total del area facturada: ");
-        String valor = scan.nextLine();
-        int valorInt = Integer.parseInt(valor);
+        int valorInt = scan.nextInt();
         if(valorInt % 2 == 0) {
           System.out.print("El area de facturacion es par");
         }else{
@@ -15,4 +14,4 @@ public class FacturacionParImpar  {
         }
         scan.close();
     } 
-} 
+}

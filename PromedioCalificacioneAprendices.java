@@ -7,11 +7,11 @@ public class PromedioCalificacioneAprendices {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Ingrese el numero de notas a calcular el promedio: ");
-        int numNotesApprentices = Integer.parseInt(scan.nextLine());
+        int numNotesApprentices = scan.nextInt();
         int savedNotes = 0;
         for (int i = 0; i < numNotesApprentices; i++) {
             System.out.print("Ingrese la nota del estudiante: ");
-            savedNotes = savedNotes + Integer.parseInt(scan.nextLine());
+            savedNotes = savedNotes + scan.nextInt();
         }
         int promedio = savedNotes / numNotesApprentices;
         System.out.print("El promedio es: " + promedio);

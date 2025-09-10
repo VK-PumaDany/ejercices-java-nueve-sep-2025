@@ -13,7 +13,7 @@ public class EncuestaMayorMenorPromedio {
         System.out.print("\n");
         for (int i = 0; i < 10; i++) {
             System.out.print("Ingrese la edad del participante numero [" + (i + 1) + ".] : ");
-            int ageWrited = Integer.parseInt(scan.nextLine());
+            int ageWrited = scan.nextInt();
 
             if (ageMayor == 0) {
                 ageMayor = ageWrited;

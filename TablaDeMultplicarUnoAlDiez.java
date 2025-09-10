@@ -16,6 +16,6 @@ public class TablaDeMultplicarUnoAlDiez {
         System.out.print("\n");
         multiplicador++;
     }
-
+    scan.close();
   }
 }
